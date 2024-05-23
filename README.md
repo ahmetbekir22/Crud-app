@@ -29,9 +29,8 @@ API Service: A custom service to handle API requests for CRUD operations.
 USAGE:
 git clone https://github.com/your-username/flutter-crud-app.git
 
-INSTALL DEPENDICIES:
-flutter pub get
-RUN THE APP:
-flutter run
+INSTALL DEPENDICIES:  flutter pub get
+
+RUN THE APP: flutter run
 
 on UI you can click on user name for updating user informations.
