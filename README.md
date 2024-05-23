@@ -27,7 +27,7 @@ DateTimePicker: A Flutter package for picking dates and times.
 API Service: A custom service to handle API requests for CRUD operations.
 
 USAGE:
-git clone https://github.com/your-username/flutter-crud-app.git
+git clone https://github.com/ahmetbekir22/crud-app.git
 
 INSTALL DEPENDICIES:  flutter pub get
 
