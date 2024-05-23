@@ -15,11 +15,15 @@ Update API key used for fetching data.
 Launch a web page within the app.
 
 TECHONOLOGIES USED:
-Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-Dart: The programming language used to build Flutter applications.
+
 url_launcher: A Flutter plugin for launching URLs in the browser.
+
 shared_preferences: A Flutter plugin for persistent key-value storage.
+
+dio: A powerful HTTP client for Dart, which handles requests and responses and provides many features like interceptors, transformers, and error handling.
+
 DateTimePicker: A Flutter package for picking dates and times.
+
 API Service: A custom service to handle API requests for CRUD operations.
 
 USAGE:
