@@ -33,4 +33,3 @@ INSTALL DEPENDICIES:  flutter pub get
 
 RUN THE APP: flutter run
 
-on UI you can click on user name for updating user informations.
