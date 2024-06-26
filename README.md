@@ -30,6 +30,12 @@
 - **API Service**: A custom service to handle API requests for CRUD operations.
 
 
+
+
+<img src="https://github.com/ahmetbekir22/crud-app/assets/118047063/278f74da-9122-499f-8507-c17e4b6bb627" alt="WhatsApp Image 2024-06-26 at 19 11 46" width="300" /> .     .
+<img src="https://github.com/ahmetbekir22/crud-app/assets/118047063/1070ff40-206d-4caf-9c2f-804aa4a2def2" alt="WhatsApp Image 2024-06-26 at 19 12 02" width="300" />
+
+
 ## Installation
 
 ```bash
