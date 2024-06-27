@@ -113,8 +113,8 @@ class _HomePageState extends State<HomePage> {
   // Launch a URL in the browser
   void _launchURL() async {
     const url = 'https://crudcrud.com/';
-    if (await canLaunch(url)) {
-      await launch(url);
+    if (await canLaunchUrl(Uri.parse(url))) {
+      await launchUrl(Uri.parse(url));
     } else {
       throw 'Could not launch $url';
     }

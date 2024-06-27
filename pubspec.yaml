@@ -1,4 +1,5 @@
-name: crud_app_apı
+name: crud_app
+
 description: A new Flutter project.
 
 publish_to: 'none'
