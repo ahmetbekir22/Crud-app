@@ -62,10 +62,12 @@ class _UserInfoFormState extends State<UserInfoForm> {
         } else {
           await apiService.createUser(user); // Create new user
         }
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('User Saved!')));
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text('User Saved!')));
         Navigator.pop(context, true); // Return to previous screen after saving
       } catch (e) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(e.toString())));
+        ScaffoldMessenger.of(context)
+            .showSnackBar(SnackBar(content: Text(e.toString())));
       }
     }
   }
