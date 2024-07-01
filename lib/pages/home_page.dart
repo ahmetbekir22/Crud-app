@@ -232,6 +232,11 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Color.fromARGB(255, 162, 185, 188),
+        foregroundColor: Colors.black,
+        shape: StadiumBorder(
+          side: BorderSide(color: Color.fromARGB(255, 185, 172, 172), width: 2.0),
+        ),        
         onPressed: _navigateToAddUser,
         child: Icon(Icons.add),
       ),

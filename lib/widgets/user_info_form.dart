@@ -119,7 +119,7 @@ class _UserInfoFormState extends State<UserInfoForm> {
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: _submitForm,
-                  child: Text(isEditMode ? 'Update' : 'Submit'),
+                  child: Text(isEditMode ? 'Update' : 'Save'),
                 ),
               ],
             ),

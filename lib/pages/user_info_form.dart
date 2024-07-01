@@ -11,7 +11,9 @@ class UserInfoFormPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Information'),
+        backgroundColor: Colors.cyan,
+        title: Text('User Information',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25)),
       ),
       body: UserInfoForm(user: user), // Pass the user parameter to UserInfoForm
     );
